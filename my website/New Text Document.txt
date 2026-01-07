@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أحمد أمين - AHMED AMIN PHOTOGRAPHY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <style>
+        :root { --main-gold: #c5a059; --dark: #111; --whatsapp: #25d366; --bg-light: #f9f9f9; --fb-blue: #1877F2; }
+        body { font-family: 'Cairo', sans-serif; background: #fff; margin: 0; scroll-behavior: smooth; color: #333; }
+        
+        /* Navbar */
+        nav { background: var(--dark); color: #fff; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid var(--main-gold); }
+        .nav-logo { font-weight: bold; font-size: 1.2rem; letter-spacing: 1px; }
+        .nav-social a { color: #fff; margin: 0 10px; font-size: 1.3rem; transition: 0.3s; }
+        .nav-social a:hover { color: var(--main-gold); }
+
+        .container { padding: 40px 5%; text-align: center; }
+        .section-title { font-size: 2.2rem; margin: 40px 0 20px; color: var(--dark); border-bottom: 3px solid var(--main-gold); display: inline-block; padding-bottom: 10px; }
+
+        /* Gallery Grid */
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 50px; }
+        .gallery-grid a { display: block; height: 300px; overflow: hidden; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.4s; }
+        .gallery-grid a:hover { transform: translateY(-10px); }
+        .gallery-grid img { width: 100%; height: 100%; object-fit: cover; }
+
+        /* Pricing Section */
+        .pricing-section { background: var(--bg-light); padding: 60px 5%; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .price-card { background: white; border-radius: 25px; padding: 40px 20px; text-align: right; border: 1px solid #eee; transition: 0.3s; position: relative; }
+        .price-card:hover { box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-color: var(--main-gold); }
+        .price-card.featured { border: 2.5px solid var(--main-gold); transform: scale(1.05); }
+        .price-card h3 { color: var(--main-gold); text-align: center; font-size: 1.8rem; margin: 0; }
+        .price-card .cost { display: block; text-align: center; font-size: 2.5rem; font-weight: bold; margin: 20px 0; color: var(--dark); }
+        .price-card ul { list-style: none; padding: 0; }
+        .price-card li { margin-bottom: 15px; display: flex; align-items: center; gap: 12px; font-size: 1.05rem; }
+        .price-card li::before { content: "\f058"; font-family: "Font Awesome 6 Free"; font-weight: 900; color: var(--main-gold); }
+
+        /* Social Buttons in Footer */
+        .footer-social-btn { display: inline-flex; align-items: center; gap: 10px; padding: 12px 25px; border-radius: 12px; color: white; text-decoration: none; margin: 10px; font-weight: bold; transition: 0.3s; }
+        .btn-fb { background-color: var(--fb-blue); }
+        .btn-ig { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+        .footer-social-btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); opacity: 0.9; }
+
+        .extra-notes { margin-top: 50px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .box { background: #fff; padding: 25px; border-radius: 15px; border-right: 5px solid var(--main-gold); box-shadow: 0 5px 15px rgba(0,0,0,0.05); text-align: right; }
+        
+        .whatsapp-btn { position: fixed; bottom: 30px; left: 30px; background: var(--whatsapp); color: white; padding: 15px 25px; border-radius: 50px; text-decoration: none; font-weight: bold; display: flex; align-items: center; gap: 10px; z-index: 1000; box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+
+        footer { background: var(--dark); color: #fff; padding: 40px; text-align: center; border-top: 3px solid var(--main-gold); }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="nav-logo">AHMED AMIN PHOTOGRAPHY</div>
+    <div class="nav-social">
+        <a href="https://www.facebook.com/AhmeDAMiNphotoghtaphy?mibextid" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ahmedamin_photoghraphy/?igshid=rsunozya9vvx" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</nav>
+                                                      📍 لو بتدور على صور تعبر عنك بصدق
+أهلاً بيك في عالمي
+<div class="container">
+    <h2 class="section-title"> VIP 1</h2>
+    <div class="gallery-grid">
+        <a href="a (1).JPG"><img src="a (1).JPG" alt="Work"></a>
+        <a href="a (2).JPG"><img src="a (2).JPG" alt="Work"></a>
+        <a href="a (13).JPG"><img src="a (13).JPG" alt="Work"></a>
+        <a href="a (14).JPG"><img src="a (14).JPG" alt="Work"></a>
+        <a href="a (15).JPG"><img src="a (15).JPG" alt="Work"></a>
+        <a href="a (20).jpeg"><img src="a (20).jpeg" alt="Work"></a>
+    </div>
+
+    <h2 class="section-title">ViP 2</h2>
+    <div class="gallery-grid">
+        <a href="1.jpg"><img src="1.jpg" alt="Work"></a>
+        <a href="2.jpg"><img src="2.jpg" alt="Work"></a>
+        <a href="3.jpg"><img src="3.jpg" alt="Work"></a>
+        <a href="4.jpg"><img src="4.jpg" alt="Work"></a>
+<a href="5.jpg"><img src="5.jpg" alt="Work"></a>
+    </div>
+          <h2 class="section-title">ViP 3</h2>
+    <div class="gallery-grid">
+        <a href=".JPG"><img src="Z (1).JPG" alt="Work"></a>
+        <a href="Z (2).JPG"><img src="Z (2).JPG" alt="Work"></a>
+        <a href="Z (4).JPG"><img src="Z (4).JPG" alt="Work"></a>
+        <a href="Z (3).JPG"><img src="Z (3).JPG" alt="Work"></a>
+        <a href="Z (5).JPG"><img src="Z (5).JPG" alt="Work"></a>
+</div>
+
+<div class="pricing-section">
+    <div class="container" style="padding-top:0">
+        <h2 class="section-title">باقات الزفاف المتميزة</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>PACKAGE 1</h3>
+                <span class="cost">4000 LE</span>
+                <ul>
+                    <li>تصوير سيشن كامل</li>
+                    <li>ألبوم مميز مقاس 30 * 45</li>
+                    <li>تابلوه حائط مقاس 40 * 60</li>
+                    <li>برومو فيديو (ريلز)</li>
+                </ul>
+                 </ul>
+
+        
+                <h3>PACKAGE 2</h3>الاكثر طلبا
+                <span class="cost">4500 LE</span>
+                <ul>
+                    <li>تصوير سيشن كامل</li>
+                    <li>ألبوم مميز مقاس 30 * 60</li>
+                    <li>تابلوه حائط مقاس50 * 60</li>
+                    <li>برومو فيديو (ريلز)</li>
+                    <li>2تابلوه مكتب مقاس 21 * 15</li>
+                    <li>شـامل تـصوير القـاعه</li>
+                </ul>
+            </div>
+            <div class="price-card featured">
+                <h3>VIP PACKAGE</h3>
+                <span class="cost">6000 LE</span>
+                <ul>
+                    <li>تصوير سيشن عدد صور مفتوح</li>
+                    <li>ألبوم مقاس كبير 30 * 60</li>
+                     <li>تابلوه حائط مقاس كبير50 * 70</li>
+                     <li>2تابلوه مكتب مقاس 21 * 15</li>
+                    <li>تصوير القاعة كاملا فيديو وصورً</li>
+                    <li>مصور إضافي لتغطية التفاصيل</li>
+                    <li>فلاش مميوري للاحتفاظ ب اليوم كامل</li>
+             <h3>FUll DAY</h3>
+                <span class="cost">7000 LE</span>
+                <ul>
+                   
+                   <li>شامل تصوير الفندق</li>
+                    <li>ألبوم مقاس كبير 30 * 60</li>
+                     <li>2تابلوه حائط مقاس كبير50 * 70</li>
+                     <li>2تابلوه مكتب مقاس 21 * 15</li>
+                    <li>تصوير القاعة كاملا فيديو وصورً</li>
+                     <li>شامل كتب الكتاب</li>
+                    <li>مصور إضافي لتغطية التفاصيل</li>
+                    <li>فلاش مميوري للاحتفاظ ب اليوم كامل</li>
+                   
+
+            </div>
+        </div>
+        
+        <div class="extra-notes">
+            <div class="box">
+                <h4 style="color:var(--main-gold)">إضافات (EXTRA)</h4>
+                <p>• سيشن كتب كتاب مع ألبوم: 1500 LE</p>
+                <p>• سيشن كتب كتاب بدون ألبوم: 1000 LE</p>
+            </div>
+            <div class="box">
+                <h4 style="color:var(--main-gold)">ملاحظات الحجز</h4>
+                <p>• العربون لا يسترد بعد مرور 15 يوم</p>
+                <p>• التسليم النهائي خلال 15 يوم عمل</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="https://wa.me/201090667403" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i> تواصل معي الآن
+</a>
+
+<footer>
+    <p style="font-size: 1.5rem; font-weight: bold; color: var(--main-gold);">AHMED AMIN PHOTOGRAPHY</p>
+    <p>تابعني على منصات التواصل الاجتماعي للمزيد من الأعمال:</p>
+    <div>
+        <a href="https://www.facebook.com/AhmeDAMiNphotoghtaphy?mibextid" class="footer-social-btn btn-fb" target="_blank">
+            <i class="fab fa-facebook-f"></i> فيسبوك
+        </a>
+        <a href="https://www.instagram.com/ahmedamin_photoghraphy/?igshid=rsunozya9vvx" class="footer-social-btn btn-ig" target="_blank">
+            <i class="fab fa-instagram"></i> إنستجرام
+        </a>
+    </div>
+    <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 20px;">جميع الحقوق محفوظة © 2026 | أصغر مصور في مصر</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.gallery-grid').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: { enabled: true }
+        });
+    });
+</script>
+
+</body>
+</html>
